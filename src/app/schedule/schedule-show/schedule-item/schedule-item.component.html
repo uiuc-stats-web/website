@@ -1,0 +1,11 @@
+<div id="schedule-item" class="col-sm-12 col-md-8 shadow" [@list]>
+  <div id="schedule-title" class="row">
+    <div class="col-sm-12 mb-2">
+      <h4>{{ itemlist.date | date:'EEEE, MMMM d'}}</h4>
+    </div>
+  </div>
+  <div id="schedule-content" class="row p-0" *ngFor="let item of itemlist.items">
+    <div class="col-sm-4"> {{ item.name }} </div>
+    <div class="col-sm-4"> {{ item.timeStart | date:'shortTime'}}-{{ item.timeEnd | date:'shortTime' }} </div>
+  </div>
+</div>

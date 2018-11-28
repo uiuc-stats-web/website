@@ -1,0 +1,19 @@
+#workshop-item {
+  background: rgba(236, 247, 253, 0.116);
+  margin-bottom: 1em;
+  #workshop-icon {
+    text-align: center;
+    .helper {
+      height: 100%;
+      display: inline-block;
+      vertical-align: middle;
+    }  
+    img {
+      vertical-align: middle;
+    }
+  }
+}
+
+#workshop-title, #workshop-dt, #workshop-title, #workshop-speaker, #workshop-desc {
+  padding-inline-start: 1em;
+}

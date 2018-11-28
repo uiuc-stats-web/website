@@ -1,0 +1,20 @@
+<div id="workshop-item" class="row shadow" [@list]>
+  <div id="workshop-icon" class="col-sm-2">
+    <span class="helper"></span><img [src]="workshop.iconPath" alt="workshop.title">
+  </div>
+  <div class="col-sm-10">
+    <div id="workshop-title" class="row mt-2">
+      <h4>{{ workshop.title }}</h4>
+    </div>
+    <div id="workshop-dt" class="row">
+      <p class="mb-0">{{ workshop.date | date:'EEEE, MMMM d' }} ({{ workshop.location }})</p>
+    </div>
+    <hr>
+    <div id="workshop-speaker" class="row">
+      <h6>{{ workshop.speaker.name }} : {{ workshop.speaker.title }}</h6>
+    </div>
+    <div id="workshop-desc" class="row">
+      <p>{{ workshop.description }}</p>
+    </div>
+  </div>
+</div>

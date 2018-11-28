@@ -1,0 +1,12 @@
+<div id="sponsor" class="jumbotron jumbotron-fluid mb-0">
+  <div class="container">
+    <div class="row">
+      <h1 class="display-4 text-center">Sponsors</h1>
+    </div>
+    <div class="row mt-2">
+      <div class="col-sm-4" *ngFor="let item of sponsors">
+        <app-sponsor-item [sponsorItem]="item"></app-sponsor-item>
+      </div>
+    </div>
+  </div>
+</div>

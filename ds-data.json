@@ -1,0 +1,43 @@
+{
+  "__comment": "PROJECT DESCRIPTION",
+  "version": 1,
+  "project-name": "ds-web",
+  
+  "home": {
+    "Title": "",
+    "Description": ""
+  },
+
+  "about": {
+    "Description": ""
+  },
+
+  "schedule": [
+    {
+      "date": "",
+      "items": [
+        {"name": "", "timeStart": "", "timeEnd": ""},
+      ]
+    }
+  ],
+
+  "workshop": [
+    {
+      "title": "",
+      "date": "",
+      "loc": "",
+      "speaker": {"name": "", "title": ""},
+      "description": ""
+    }
+  ],
+
+  "sponsor": [
+    {
+      "iconPath": "",
+      "title": "",
+      "cols": 1,
+      "rows": 1,
+      "bgColor": ""
+    }
+  ]
+}
