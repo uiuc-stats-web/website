@@ -1,0 +1,71 @@
+{
+  "__comment": "PROJECT DESCRIPTION",
+  "version": 1,
+  "project-name": "ds-web",
+  
+  "home": {
+    "Title": "Illini Datathon",
+    "Description": "Learn. Solve. Analyze.",
+    "Application_Description": "Applications For The 2019 Datathon Are Now Open"
+  },
+
+  "about": {
+    "Description": "A datathon is a celebration of data. In our 2nd annual Datathon, participants will work in teams and be presented a large, complex dataset. They will have 36 hours to their quantitative skills to analyze the dataset and tackle an industry problem. Though the competition is the core event of the Datathon, there will also be fun workshops presented from professionals in the field and an informal career fair. So come learn how to apply analytical skills learned in the classroom to real-life data!"
+  },
+
+  "schedule": [
+    {
+      "date": "Friday, Feb 15th",
+      "items": [
+        {"name": "Check In", "timeStart": "5:30 pm", "timeEnd": "6:00 pm"},
+        {"name": "Dinner", "timeStart": "6:00 pm", "timeEnd": "7:00 pm"},
+        {"name": "Opening Ceremony", "timeStart": "7:00 pm", "timeEnd": "9:00 pm"},
+        {"name": "Kickoff and Release of Dataset", "timeStart": "9:00 pm", "timeEnd": "9:30 pm"}
+      ]
+    },
+    {
+      "date": "Saturday, Feb 16th",
+      "items": [
+        {"name": "Breakfast and Office Hours Start", "timeStart": "9:00 am", "timeEnd": "11:00 am"},
+        {"name": "1st Workshop", "timeStart": "11:00 am", "timeEnd": "12:00 pm"},
+        {"name": "2nd Workshop", "timeStart": "12:00 pm", "timeEnd": "1:00 pm"},
+        {"name": "Lunch", "timeStart": "1:00 pm", "timeEnd": "2:00 pm"},
+        {"name": "3rd Workshop", "timeStart": "2:00 pm", "timeEnd": "3:00 pm"},
+        {"name": "4th Workshop", "timeStart": "3:00 pm", "timeEnd": "4:00 pm"},
+        {"name": "Dinner", "timeStart": "6:00 pm", "timeEnd": "7:00 pm"},
+        {"name": "Office Hours End", "timeStart": "9:00 pm"}
+      ]
+    },
+    {
+      "date": "Sunday, Feb 17th",
+      "items": [
+        {"name": "Submissions Due", "timeStart": "8:30am"},
+        {"name": "Brunch", "timeStart": "10:30 am", "timeEnd": "12:00 pm"},
+        {"name": "Top 8 Presentations", "timeStart": "12:00 pm", "timeEnd": "3:00 pm"},
+        {"name": "Awards Ceremony", "timeStart": "4:00 pm", "timeEnd": "5:30 pm"}
+       
+      ]
+    }
+
+  ],
+
+  "workshop": [
+    {
+      "title": "",
+      "date": "",
+      "loc": "",
+      "speaker": {"name": "", "title": ""},
+      "description": ""
+    }
+  ],
+
+  "sponsor": [
+    {
+      "iconPath": "",
+      "title": "Synchrony Financial",
+      "cols": 1,
+      "rows": 1,
+      "bgColor": ""
+    }
+  ]
+}
